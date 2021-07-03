@@ -1,0 +1,16 @@
+/home/janus/work/cpp-cs-fundamental/unit_03/Unit3/bin/Debug/net5.0/Unit3
+/home/janus/work/cpp-cs-fundamental/unit_03/Unit3/bin/Debug/net5.0/Unit3.deps.json
+/home/janus/work/cpp-cs-fundamental/unit_03/Unit3/bin/Debug/net5.0/Unit3.runtimeconfig.json
+/home/janus/work/cpp-cs-fundamental/unit_03/Unit3/bin/Debug/net5.0/Unit3.runtimeconfig.dev.json
+/home/janus/work/cpp-cs-fundamental/unit_03/Unit3/bin/Debug/net5.0/Unit3.dll
+/home/janus/work/cpp-cs-fundamental/unit_03/Unit3/bin/Debug/net5.0/ref/Unit3.dll
+/home/janus/work/cpp-cs-fundamental/unit_03/Unit3/bin/Debug/net5.0/Unit3.pdb
+/home/janus/work/cpp-cs-fundamental/unit_03/Unit3/obj/Debug/net5.0/Unit3.csproj.AssemblyReference.cache
+/home/janus/work/cpp-cs-fundamental/unit_03/Unit3/obj/Debug/net5.0/Unit3.GeneratedMSBuildEditorConfig.editorconfig
+/home/janus/work/cpp-cs-fundamental/unit_03/Unit3/obj/Debug/net5.0/Unit3.AssemblyInfoInputs.cache
+/home/janus/work/cpp-cs-fundamental/unit_03/Unit3/obj/Debug/net5.0/Unit3.AssemblyInfo.cs
+/home/janus/work/cpp-cs-fundamental/unit_03/Unit3/obj/Debug/net5.0/Unit3.csproj.CoreCompileInputs.cache
+/home/janus/work/cpp-cs-fundamental/unit_03/Unit3/obj/Debug/net5.0/Unit3.dll
+/home/janus/work/cpp-cs-fundamental/unit_03/Unit3/obj/Debug/net5.0/ref/Unit3.dll
+/home/janus/work/cpp-cs-fundamental/unit_03/Unit3/obj/Debug/net5.0/Unit3.pdb
+/home/janus/work/cpp-cs-fundamental/unit_03/Unit3/obj/Debug/net5.0/Unit3.genruntimeconfig.cache
