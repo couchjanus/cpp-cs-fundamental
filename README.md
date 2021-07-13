@@ -15,3 +15,7 @@
 ## Unit 4
 - [ООП в C++](./CPPOOP.md)
 - [ООП в C#](CSOOP.md)
+
+## Unit 5
+- [Наследование в C++](./CPPInherit.md)
+- [Наследование в C#](CSInheritance.md)

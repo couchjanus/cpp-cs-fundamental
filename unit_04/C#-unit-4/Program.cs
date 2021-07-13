@@ -1,4 +1,5 @@
 ﻿using System;
+using User;
 
 namespace C__unit_4
 {
@@ -105,7 +106,9 @@ namespace C__unit_4
 
             var d8 = new DemoClass(10);
             Console.WriteLine($"MulField() result: {d8.MulField(2)}"); // MulField() result: 20
-
+            
+            User tom = new User("Tom cat");
+            Console.WriteLine($"result: {tom.nmae}"); 
         }
     }
 }
