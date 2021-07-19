@@ -19,3 +19,7 @@
 ## Unit 5
 - [Наследование в C++](./CPPInherit.md)
 - [Наследование в C#](CSInheritance.md)
+
+## Unit 6
+- [Ссылочные типы в C++](./CPPHeap.md)
+- [Ссылочные типы в C#](CSHeap.md)
