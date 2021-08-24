@@ -107,7 +107,6 @@ namespace Collections
 ### реализация списка:
 ```cs
 
-```
 using System;
 using System.Collections.Generic;
  
@@ -117,6 +116,10 @@ namespace Collections
     {
         static void Main(string[] args)
         {
+            // Здесь создаются два списка: один для объектов типа int, а другой - для объектов Person. 
+
+            // В первом случае мы выполняем начальную инициализацию списка: List<int> numbers = new List<int>() { 1, 2, 3, 45 };
+
             List<int> numbers = new List<int>() { 1, 2, 3, 45 };
             numbers.Add(6); // добавление элемента
  
@@ -130,7 +133,10 @@ namespace Collections
             {
                 Console.WriteLine(i);
             }
- 
+            // Во втором случае мы используем другой конструктор, в который передаем начальную емкость списка: List<Person> people = new List<Person>(3);. 
+            // Указание начальной емкости списка (capacity) позволяет в будущем увеличить производительность и уменьшить издержки на выделение памяти при добавлении элементов. 
+            // Также начальную емкость можно установить с помощью свойства Capacity, которое имеется у класса List.
+
             List<Person> people = new List<Person>(3);
             people.Add(new Person() { Name = "Том" });
             people.Add(new Person() { Name = "Билл" });
@@ -149,10 +155,8 @@ namespace Collections
         public string Name { get; set; }
     }
 }
-Здесь у нас создаются два списка: один для объектов типа int, а другой - для объектов Person. В первом случае мы выполняем начальную инициализацию списка: List<int> numbers = new List<int>() { 1, 2, 3, 45 };
 
-Во втором случае мы используем другой конструктор, в который передаем начальную емкость списка: List<Person> people = new List<Person>(3);. Указание начальной емкости списка (capacity) позволяет в будущем увеличить производительность и уменьшить издержки на выделение памяти при добавлении элементов. Также начальную емкость можно установить с помощью свойства Capacity, которое имеется у класса List.
-
+```
 
 ## Двухсвязный список LinkedList<T>
  
@@ -349,6 +353,7 @@ namespace Collections
 # использование словарей:
 
 ```cs
+
 Dictionary<int, string> countries = new Dictionary<int, string>(5);
 countries.Add(1, "Russia");
 countries.Add(3, "Great Britain");
@@ -369,8 +374,6 @@ countries[4] = "Spain";
 countries.Remove(2);
 ```
 Класс словарей имеет методы Add и Remove для добавления и удаления элементов. В метод Add передаются два параметра: ключ и значение. Метод Remove удаляет не по индексу, а по ключу.
-
-
 
 ```cs
 
@@ -601,12 +604,12 @@ namespace HelloApp
         }
     }
 }
-
+// Благодаря этому мы можем перебрать все дни недели в цикле foreach.
 public IEnumerator GetEnumerator()
 {
     return days.GetEnumerator();
 }
-Благодаря этому мы можем перебрать все дни недели в цикле foreach.
+
 ```
 для перебора коллекции через foreach в принципе необязательно реализовать интерфейс IEnumerable. Достаточно в классе определить публичный метод GetEnumerator, который бы возвращал объект IEnumerator:
 
